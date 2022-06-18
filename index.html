@@ -9,22 +9,14 @@
 </head>
 <body>
 
-    <div class="wrapper">
-        <h1>Hang Man</h1>
-        <h2>The classic game made with JavaScript</h2>
-        <p>Use the alphabet below to guess the word, or click hint to get a clue.</p>
-    </div>
-
-    <div class="wrapper">
-        <div id="buttons"></div>
-        <p id="catagoryName"></p>
-        <div id="hold"></div>
-        <p id="myLives"></p>
-        <p id="clue">Clue -</p>
-        <canvas id="stickman"></canvas>
-        <div class="container">
-            <button id="hint">Hint</button>
-            <button id="reset">Play Again</button>
+    <div class="container">
+        <div id="options-container"></div>
+        <div id="letter-container" class="letter-container hide"></div>
+        <div id="user-input-section"></div>
+        <canvas id="canvas"></canvas>
+        <div id="new-game-container" class="new-game-popup hide">
+            <div id="result-text"></div>
+            <button id="new-game-button">New Game</button>
         </div>
     </div>
     
