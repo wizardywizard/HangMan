@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f4c531;
+    background-color: #088ee7be;
 }
 
 .container {
@@ -15,9 +15,8 @@ body {
     width: 90vw;
     max-width: 34em;
     position: absolute;
-    transform: translate(-50%, -50%,);
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 30%;
     padding: 3em;
     border-radius: 0.6em;
     box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
@@ -50,7 +49,7 @@ body {
 }
 
 #options-container button:active {
-    background-color: #f4c531;
+    background-color: #f1e20d;
     border: 3px solid #000000;
     color: #000000;
 }
@@ -101,7 +100,34 @@ canvas {
     border: 1px solid #000000;
 }
 
-
+.hide {
+    display: none;
+  }
+  #result-text h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  #result-text p {
+    font-size: 1.25em;
+    margin: 1em 0 2em 0;
+  }
+  #result-text span {
+    font-weight: 600;
+  }
+  #new-game-button {
+    font-size: 1.25em;
+    padding: 0.5em 1em;
+    background-color: #f1f512;
+    border: 3px solid #000000;
+    color: #000000;
+    border-radius: 0.2em;
+  }
+  .win-msg {
+    color: #39d78d;
+  }
+  .lose-msg {
+    color: #fe5152;
+  }
 
 
 

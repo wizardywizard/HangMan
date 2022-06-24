@@ -75,7 +75,6 @@ const generateWord = (optionValue) => {
     let optionArray = options[optionValue];
     chosenWord = optionArray[Math.floor(Math.random() * optionArray.length)];
     chosenWord = chosenWord.toUpperCase();
-    console.log(chosenWord);
 
     let displayItem = chosenWord.replace(/./g, '<span class="dashes">_</span>');
     userInputSection.innerHTML = displayItem;
@@ -153,19 +152,19 @@ const canvasCreator = () => {
     };
 
     const leftArm = () => {
-        drawLine(70, 40, 70, 80);
+        drawLine(70, 50, 50, 70);
     };
 
     const rightArm = () => {
-        drawLine(70, 40, 70, 80);
+        drawLine(70, 50, 90, 70);
     };
 
     const leftLeg = () => {
-        drawLine(70, 40, 70, 80);
+        drawLine(70, 80, 50, 110);
     };
 
     const rightLeg = () => {
-        drawLine(70, 40, 70, 80);
+        drawLine(70, 80, 90, 110);
     };
 
     const initialDrawing = () => {
